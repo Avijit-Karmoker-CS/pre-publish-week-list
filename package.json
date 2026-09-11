@@ -1,0 +1,11 @@
+{
+  "name": "pre-publish-week-list",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pre-Publish Week List — shared pre-publish event visibility for thin-staffed startup support orgs",
+  "scripts": {
+    "dev": "echo \"App not built yet — paste your build prompts in Cursor.\" && exit 1",
+    "build": "echo \"App not built yet\" && exit 1",
+    "start": "echo \"App not built yet\" && exit 1"
+  }
+}
