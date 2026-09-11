@@ -2,10 +2,22 @@
   "name": "pre-publish-week-list",
   "version": "0.1.0",
   "private": true,
-  "description": "Pre-Publish Week List — shared pre-publish event visibility for thin-staffed startup support orgs",
+  "type": "module",
+  "description": "Pre-Publish Week List — local-first shared pre-publish event visibility",
   "scripts": {
-    "dev": "echo \"App not built yet — paste your build prompts in Cursor.\" && exit 1",
-    "build": "echo \"App not built yet\" && exit 1",
-    "start": "echo \"App not built yet\" && exit 1"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
   }
 }

@@ -1,7 +1,5 @@
 # Build prompts
 
-Paste your Cursor build prompts below as you go. Keep this file as the trail for the demo.
+## Prompt 1 (completed)
 
-## Prompt 1
-
-_(waiting)_
+Build a local-first Pre-Publish Week List app (no database): clash detection, week view, CSV/JSON import-export, demo seed, pre-publish check flow. Commit and push to GitHub.
